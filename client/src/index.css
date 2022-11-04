@@ -1,0 +1,17 @@
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  transition:all ease-in-out 250ms;
+}
+
+*+* {
+  margin: 1rem 0 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ 
