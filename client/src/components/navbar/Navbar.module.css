@@ -1,0 +1,25 @@
+.navbarItems {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color:var(--clr-neutral-100);
+}
+.menu_icon {
+  display: none;
+}
+
+@media screen and (max-width: 850px){
+  .navbarItems {
+    z-index: 99;
+  }
+  .navbarItems:nth-child(1) { order: 2; }
+  .navbarItems:nth-child(4) { order: 4; }
+  .navbarItems:nth-child(2) { order: 1; }
+  .menu_icon {
+    display: block;
+    z-index: 99;
+  }
+  .brand {
+    display: none;
+  }
+}
