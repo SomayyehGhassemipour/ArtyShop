@@ -2,7 +2,7 @@ export const MenuData_primary = [
   {
     title: "Home",
     icon: "",
-    url: "/home",
+    url: "/",
     classname: "nav_link"
   },
   {
